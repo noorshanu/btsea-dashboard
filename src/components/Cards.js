@@ -82,53 +82,53 @@ const Cards = () => {
 
   return (
     <div className="my-10">
-      <div className="flex justify-between items-center mx-auto">
+      <div className="flex justify-between items-center mx-auto flex-col sm:flex-row">
         <div className="">
           <h1 className="text-white mt-3 font-bold text-lg">Marketplace</h1>
           <h2 className="items-center text-white opacity-50 text-sm text-soft-blue whitespace-nowrap">
             Buy NFTs, Get Rewards{" "}
           </h2>
         </div>
-        <div className="space-x-2 flex">
+        <div className="space-x-2 flex flex-col sm:flex-row mb-3 sm:mb-0 gap-4 mt-3 sm:mt-0">
           {/* border-2 border-solid border-[#9B02FB] */}
           <button
             className="whitespace-nowrap rounded-full cursor-pointer border-transparent
-            hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
+             md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
             onClick={() => setItems(Nfts)}
           >
             All
           </button>
           <button
             className="whitespace-nowrap rounded-full cursor-pointer border-transparent
-              hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
+              md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
             onClick={() => filterItem("onsale")}
           >
             On Sale
           </button>
           <button
             className="whitespace-nowrap rounded-full cursor-pointer border-transparent
-              hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
+             md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
               onClick={() => filterItem("top")}
           >
             Top
           </button>
           <button
             className="whitespace-nowrap rounded-full cursor-pointer border-transparent
-              hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
+              md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
               onClick={() => filterItem("Art")}
           >
             Art
           </button>
           <button
             className="whitespace-nowrap rounded-full cursor-pointer border-transparent
-              hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
+               md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
               onClick={() => filterItem("Game")}
           >
             Game
           </button>
           <button
             className="whitespace-nowrap rounded-full cursor-pointer border-transparent
-              hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
+              md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100"
               onClick={() => filterItem("Photograph")}
           >
             Photography
