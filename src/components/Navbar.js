@@ -107,10 +107,10 @@ const Navbar = () => {
 
       <div className={openNav ? "sm:hidden block" : "hidden"} id="mobile-menu">
         <div className="space-y-1 pt-2 pb-3">
-          hekk
+          
           <div>
 
-        <ConnectWalletBtn/>
+       
           </div>
         </div>
       </div>
