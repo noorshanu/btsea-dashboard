@@ -4,6 +4,7 @@ import logoImg from "../assets/logo.png";
 import searchIcon from "../assets/icons/Vector (1).png";
 // import avatar from "../assets/icons/avatar.png";
 import { Link } from "react-router-dom";
+import ConnectWalletBtn from "./ConnectWalletBtn";
 
 const Navbar = () => {
   let [openNav, setOpenNav] = useState(false);
@@ -90,14 +91,16 @@ const Navbar = () => {
             </button>
             <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-lg border border-gray-500">
               <img src={avatar} className="mx-auto h-7 w-7" alt=""/> */}
-              <a
+              {/* <a
                 href="/Wallet"
                 className={`whitespace-nowrap rounded-full cursor-pointer 
                   border-2 border-solid border-[#9B02FB] hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100`}
               >
                 connect wallet
-              </a>
+              </a> */}
+
             </button>
+            <ConnectWalletBtn/>
           </div>
         </div>
       </div>

@@ -48,7 +48,7 @@ export default function NftProfile() {
               </div>
 
               <div className="mt-6 flex items-center">
-                <img src={avatarImg} className="h-12 w-12 rounded-full" />
+                <img src={avatarImg} className="h-12 w-12 rounded-full"  alt=""/>
                 <div className="flex-grow flex flex-col justify-center ml-5">
                   <p className="font-medium text-white">Owned By</p>
                   <p className="text-white font-base opacity-50">
@@ -62,7 +62,7 @@ export default function NftProfile() {
                     0.80 BTC
                   </button>
                   <div className="ml-2 h-9 w-9 p-2 flex justify-center items-center rounded-full bg-[#ffffff0d] cursor-pointer">
-                    <img src={heartIcon} />
+                    <img src={heartIcon}  alt=""/>
                   </div>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function NftProfile() {
                 <button
                  
                   className={`whitespace-nowrap rounded-full cursor-pointer ${
-                    i == 0
+                    i === 0
                       ? "border-2 border-solid border-[#9B02FB]"
                       : "border-transparent"
                   } py-2 px-6 bg-gradient-to-b mx-1  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100`}

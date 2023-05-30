@@ -47,7 +47,7 @@ function Model({ setIsModal }) {
                     </div>
 
                     <div className="mt-6 flex items-center justify-between">
-                      <img src={avatarImg} className="h-12 w-12 rounded-full" />
+                      <img src={avatarImg} className="h-12 w-12 rounded-full" alt="" />
                       <div className="flex-grow flex flex-col justify-center ml-5">
                         <p className="font-medium text-white">Owned By</p>
                         <p className="text-white font-base opacity-50 text-[12px]">
