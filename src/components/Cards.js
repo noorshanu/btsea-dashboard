@@ -89,7 +89,7 @@ const Cards = () => {
             Buy NFTs, Get Rewards{" "}
           </h2>
         </div>
-        <div className="space-x-2 flex flex-col sm:flex-row mb-3 sm:mb-0 gap-4 mt-3 sm:mt-0">
+        <div className="space-x-2 grid  sm:flex grid-cols-2 sm:flex-row mb-3 sm:mb-0 gap-4 mt-3 sm:mt-0">
           {/* border-2 border-solid border-[#9B02FB] */}
           <button
             className="whitespace-nowrap rounded-full cursor-pointer border-transparent
