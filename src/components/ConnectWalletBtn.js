@@ -24,7 +24,7 @@ function ConnectWalletBtn({
     <button
       style={style}
       className={`whitespace-nowrap rounded-full cursor-pointer 
-      border-2 border-solid border-[#9B02FB] hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100`}
+      border-2 border-solid border-[#9B02FB]  md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100`}
       onClick={() => {
         if (address && chain.id !== mainnet.id) {
           switchNetwork(mainnet.id);
